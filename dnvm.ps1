@@ -81,7 +81,7 @@ $FullVersion="$ProductVersion-$BuildVersion"
 
 Set-Variable -Option Constant "CommandName" ([IO.Path]::GetFileNameWithoutExtension($ScriptPath))
 Set-Variable -Option Constant "CommandFriendlyName" ".NET Version Manager"
-Set-Variable -Option Constant "DefaultUserDirectoryName" ".dnx"
+Set-Variable -Option Constant "DefaultUserDirectoryName" "dnx"
 Set-Variable -Option Constant "DefaultGlobalDirectoryName" "Microsoft DNX"
 Set-Variable -Option Constant "OldUserDirectoryNames" @(".kre", ".k")
 Set-Variable -Option Constant "RuntimePackageName" "dnx"
